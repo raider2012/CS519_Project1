@@ -1,0 +1,44 @@
+--- ./linux-5.15.0/mm/mmap.c.orig	2025-02-19 05:14:35.497232934 +0000
++++ ./linux-5.15.0/mm/mmap.c	2025-02-19 03:40:26.502236138 +0000
+@@ -3831,4 +3831,38 @@
+ 
+ 	return 0;
+ }
+-subsys_initcall(init_reserve_notifier);
+\ No newline at end of file
++subsys_initcall(init_reserve_notifier);
++
++SYSCALL_DEFINE2(app_helper, void __user *, user_buf, size_t, size)
++{
++    void *kernel_buf;
++    int ret = 0;
++
++    // Allocate kernel buffer
++    kernel_buf = kmalloc(size, GFP_KERNEL);
++    if (!kernel_buf)
++        return -ENOMEM;
++
++    // Copy data from user space to kernel space
++    if (copy_from_user(kernel_buf, user_buf, size)) {
++        kfree(kernel_buf);
++        return -EFAULT;
++    }
++
++    // Modify the data (e.g., set all bytes to 1)
++    memset(kernel_buf, 1, size);
++
++    // Copy the modified data back to user space
++    if (copy_to_user(user_buf, kernel_buf, size)) {
++        kfree(kernel_buf);
++        return -EFAULT;
++    }
++
++    // Free the kernel buffer
++    kfree(kernel_buf);
++
++    // Print a message to the kernel log (for debugging)
++    printk(KERN_INFO "app_helper: System call invoked successfully\n");
++
++    return ret;
++}
+\ No newline at end of file

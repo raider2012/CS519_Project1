@@ -1,0 +1,11 @@
+--- ./linux-5.15.0/arch/x86/entry/syscalls/syscall_64.tbl.orig	2025-02-19 05:15:16.213954298 +0000
++++ ./linux-5.15.0/arch/x86/entry/syscalls/syscall_64.tbl	2025-02-19 03:42:38.556752977 +0000
+@@ -370,7 +370,7 @@
+ 446	common	landlock_restrict_self	sys_landlock_restrict_self
+ 447	common	memfd_secret		sys_memfd_secret
+ 448	common	process_mrelease	sys_process_mrelease
+-
++449 common  app_helper          sys_app_helper
+ #
+ # Due to a historical design error, certain syscalls are numbered differently
+ # in x32 as compared to native x86_64.  These syscalls have numbers 512-547.
