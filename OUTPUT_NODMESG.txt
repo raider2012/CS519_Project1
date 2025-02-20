@@ -1,0 +1,465 @@
+--------------------------------------------------
+Running test with buffer size: 256 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 256 bytes
+  Iterations: 10
+  Total time: 26181 ns
+  Average latency per call: 2618.10 ns
+--------
+Running test with buffer size: 256 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 256 bytes
+  Iterations: 50
+  Total time: 58314 ns
+  Average latency per call: 1166.28 ns
+--------
+Running test with buffer size: 256 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 256 bytes
+  Iterations: 100
+  Total time: 241097 ns
+  Average latency per call: 2410.97 ns
+--------
+Running test with buffer size: 256 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 256 bytes
+  Iterations: 500
+  Total time: 576266 ns
+  Average latency per call: 1152.53 ns
+--------
+Running test with buffer size: 256 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 256 bytes
+  Iterations: 1000
+  Total time: 1140540 ns
+  Average latency per call: 1140.54 ns
+--------
+Running test with buffer size: 256 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 256 bytes
+  Iterations: 5000
+  Total time: 5663330 ns
+  Average latency per call: 1132.67 ns
+--------
+Running test with buffer size: 256 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 256 bytes
+  Iterations: 10000
+  Total time: 10744844 ns
+  Average latency per call: 1074.48 ns
+--------
+
+--------------------------------------------------
+Running test with buffer size: 512 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 512 bytes
+  Iterations: 10
+  Total time: 11587 ns
+  Average latency per call: 1158.70 ns
+--------
+Running test with buffer size: 512 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 512 bytes
+  Iterations: 50
+  Total time: 53148 ns
+  Average latency per call: 1062.96 ns
+--------
+Running test with buffer size: 512 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 512 bytes
+  Iterations: 100
+  Total time: 104730 ns
+  Average latency per call: 1047.30 ns
+--------
+Running test with buffer size: 512 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 512 bytes
+  Iterations: 500
+  Total time: 519217 ns
+  Average latency per call: 1038.43 ns
+--------
+Running test with buffer size: 512 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 512 bytes
+  Iterations: 1000
+  Total time: 1050159 ns
+  Average latency per call: 1050.16 ns
+--------
+Running test with buffer size: 512 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 512 bytes
+  Iterations: 5000
+  Total time: 5221508 ns
+  Average latency per call: 1044.30 ns
+--------
+Running test with buffer size: 512 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 512 bytes
+  Iterations: 10000
+  Total time: 10369536 ns
+  Average latency per call: 1036.95 ns
+--------
+
+--------------------------------------------------
+Running test with buffer size: 1024 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 1024 bytes
+  Iterations: 10
+  Total time: 11609 ns
+  Average latency per call: 1160.90 ns
+--------
+Running test with buffer size: 1024 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 1024 bytes
+  Iterations: 50
+  Total time: 53748 ns
+  Average latency per call: 1074.96 ns
+--------
+Running test with buffer size: 1024 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 1024 bytes
+  Iterations: 100
+  Total time: 106103 ns
+  Average latency per call: 1061.03 ns
+--------
+Running test with buffer size: 1024 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 1024 bytes
+  Iterations: 500
+  Total time: 527180 ns
+  Average latency per call: 1054.36 ns
+--------
+Running test with buffer size: 1024 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 1024 bytes
+  Iterations: 1000
+  Total time: 1061757 ns
+  Average latency per call: 1061.76 ns
+--------
+Running test with buffer size: 1024 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 1024 bytes
+  Iterations: 5000
+  Total time: 5265286 ns
+  Average latency per call: 1053.06 ns
+--------
+Running test with buffer size: 1024 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 1024 bytes
+  Iterations: 10000
+  Total time: 12157886 ns
+  Average latency per call: 1215.79 ns
+--------
+
+--------------------------------------------------
+Running test with buffer size: 2048 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2048 bytes
+  Iterations: 10
+  Total time: 11882 ns
+  Average latency per call: 1188.20 ns
+--------
+Running test with buffer size: 2048 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2048 bytes
+  Iterations: 50
+  Total time: 53756 ns
+  Average latency per call: 1075.12 ns
+--------
+Running test with buffer size: 2048 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2048 bytes
+  Iterations: 100
+  Total time: 106468 ns
+  Average latency per call: 1064.68 ns
+--------
+Running test with buffer size: 2048 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2048 bytes
+  Iterations: 500
+  Total time: 528434 ns
+  Average latency per call: 1056.87 ns
+--------
+Running test with buffer size: 2048 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2048 bytes
+  Iterations: 1000
+  Total time: 1053971 ns
+  Average latency per call: 1053.97 ns
+--------
+Running test with buffer size: 2048 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2048 bytes
+  Iterations: 5000
+  Total time: 5268239 ns
+  Average latency per call: 1053.65 ns
+--------
+Running test with buffer size: 2048 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2048 bytes
+  Iterations: 10000
+  Total time: 10550813 ns
+  Average latency per call: 1055.08 ns
+--------
+
+--------------------------------------------------
+Running test with buffer size: 4096 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 4096 bytes
+  Iterations: 10
+  Total time: 13403 ns
+  Average latency per call: 1340.30 ns
+--------
+Running test with buffer size: 4096 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 4096 bytes
+  Iterations: 50
+  Total time: 60443 ns
+  Average latency per call: 1208.86 ns
+--------
+Running test with buffer size: 4096 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 4096 bytes
+  Iterations: 100
+  Total time: 119489 ns
+  Average latency per call: 1194.89 ns
+--------
+Running test with buffer size: 4096 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 4096 bytes
+  Iterations: 500
+  Total time: 592199 ns
+  Average latency per call: 1184.40 ns
+--------
+Running test with buffer size: 4096 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 4096 bytes
+  Iterations: 1000
+  Total time: 1202368 ns
+  Average latency per call: 1202.37 ns
+--------
+Running test with buffer size: 4096 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 4096 bytes
+  Iterations: 5000
+  Total time: 5940212 ns
+  Average latency per call: 1188.04 ns
+--------
+Running test with buffer size: 4096 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 4096 bytes
+  Iterations: 10000
+  Total time: 11864954 ns
+  Average latency per call: 1186.50 ns
+--------
+
+--------------------------------------------------
+Running test with buffer size: 8192 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 8192 bytes
+  Iterations: 10
+  Total time: 16673 ns
+  Average latency per call: 1667.30 ns
+--------
+Running test with buffer size: 8192 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 8192 bytes
+  Iterations: 50
+  Total time: 73945 ns
+  Average latency per call: 1478.90 ns
+--------
+Running test with buffer size: 8192 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 8192 bytes
+  Iterations: 100
+  Total time: 146370 ns
+  Average latency per call: 1463.70 ns
+--------
+Running test with buffer size: 8192 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 8192 bytes
+  Iterations: 500
+  Total time: 725402 ns
+  Average latency per call: 1450.80 ns
+--------
+Running test with buffer size: 8192 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 8192 bytes
+  Iterations: 1000
+  Total time: 1450186 ns
+  Average latency per call: 1450.19 ns
+--------
+Running test with buffer size: 8192 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 8192 bytes
+  Iterations: 5000
+  Total time: 7287022 ns
+  Average latency per call: 1457.40 ns
+--------
+Running test with buffer size: 8192 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 8192 bytes
+  Iterations: 10000
+  Total time: 14495673 ns
+  Average latency per call: 1449.57 ns
+--------
+
+--------------------------------------------------
+Running test with buffer size: 16384 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 16384 bytes
+  Iterations: 10
+  Total time: 32227 ns
+  Average latency per call: 3222.70 ns
+--------
+Running test with buffer size: 16384 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 16384 bytes
+  Iterations: 50
+  Total time: 133612 ns
+  Average latency per call: 2672.24 ns
+--------
+Running test with buffer size: 16384 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 16384 bytes
+  Iterations: 100
+  Total time: 244214 ns
+  Average latency per call: 2442.14 ns
+--------
+Running test with buffer size: 16384 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 16384 bytes
+  Iterations: 500
+  Total time: 1203000 ns
+  Average latency per call: 2406.00 ns
+--------
+Running test with buffer size: 16384 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 16384 bytes
+  Iterations: 1000
+  Total time: 2404327 ns
+  Average latency per call: 2404.33 ns
+--------
+Running test with buffer size: 16384 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 16384 bytes
+  Iterations: 5000
+  Total time: 11892815 ns
+  Average latency per call: 2378.56 ns
+--------
+Running test with buffer size: 16384 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 16384 bytes
+  Iterations: 10000
+  Total time: 24940175 ns
+  Average latency per call: 2494.02 ns
+--------
+
+--------------------------------------------------
+Running test with buffer size: 2097152 bytes and iterations 10
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2097152 bytes
+  Iterations: 10
+  Total time: 6471968 ns
+  Average latency per call: 647196.80 ns
+--------
+Running test with buffer size: 2097152 bytes and iterations 50
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2097152 bytes
+  Iterations: 50
+  Total time: 32361627 ns
+  Average latency per call: 647232.54 ns
+--------
+Running test with buffer size: 2097152 bytes and iterations 100
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2097152 bytes
+  Iterations: 100
+  Total time: 65496447 ns
+  Average latency per call: 654964.47 ns
+--------
+Running test with buffer size: 2097152 bytes and iterations 500
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2097152 bytes
+  Iterations: 500
+  Total time: 292565775 ns
+  Average latency per call: 585131.55 ns
+--------
+Running test with buffer size: 2097152 bytes and iterations 1000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2097152 bytes
+  Iterations: 1000
+  Total time: 510974904 ns
+  Average latency per call: 510974.90 ns
+--------
+Running test with buffer size: 2097152 bytes and iterations 5000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2097152 bytes
+  Iterations: 5000
+  Total time: 2534647040 ns
+  Average latency per call: 506929.41 ns
+--------
+Running test with buffer size: 2097152 bytes and iterations 10000
+Validation successful: Buffer contents are correct
+Benchmark results:
+  Buffer size: 2097152 bytes
+  Iterations: 10000
+  Total time: 5223332715 ns
+  Average latency per call: 522333.27 ns
+--------
+
+All tests completed.
