@@ -1,5 +1,5 @@
 --- ./linux-5.15.0/include/linux/syscalls.h.orig	2025-02-19 05:16:23.387139131 +0000
-+++ ./linux-5.15.0/include/linux/syscalls.h	2025-02-19 03:44:54.255207608 +0000
++++ ./linux-5.15.0/include/linux/syscalls.h	2025-02-20 00:28:44.273970189 +0000
 @@ -1388,4 +1388,5 @@
  		int __user *optlen);
  int __sys_setsockopt(int fd, int level, int optname, char __user *optval,
@@ -7,5 +7,5 @@
 -#endif
 \ No newline at end of file
 +#endif
-+asmlinkage long sys_app_helper(void __user *user_buf, size_t size);
++asmlinkage long sys_app_helper(void __user *user_buf,  size_t size);
 \ No newline at end of file

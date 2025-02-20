@@ -1,12 +1,9 @@
---- ./linux-5.15.0/mm/mmap.c.orig	2025-02-19 05:14:35.497232934 +0000
-+++ ./linux-5.15.0/mm/mmap.c	2025-02-19 03:40:26.502236138 +0000
-@@ -3831,4 +3831,38 @@
- 
+--- ./linux-5.15.0/mm/mmap.c.orig	2025-02-19 23:26:30.600209567 +0000
++++ ./linux-5.15.0/mm/mmap.c	2025-02-19 23:26:59.880747389 +0000
+@@ -3832,3 +3832,37 @@
  	return 0;
  }
--subsys_initcall(init_reserve_notifier);
-\ No newline at end of file
-+subsys_initcall(init_reserve_notifier);
+ subsys_initcall(init_reserve_notifier);
 +
 +SYSCALL_DEFINE2(app_helper, void __user *, user_buf, size_t, size)
 +{
@@ -37,7 +34,7 @@
 +    kfree(kernel_buf);
 +
 +    // Print a message to the kernel log (for debugging)
-+    printk(KERN_INFO "app_helper: System call invoked successfully\n");
++    //printk(KERN_INFO "app_helper: System call invoked successfully\n");
 +
 +    return ret;
 +}
